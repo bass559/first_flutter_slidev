@@ -54,7 +54,7 @@ class: 'bg-no-repeat bg-contain bg-right bg-[url(/images/build_multi_platform.pn
     <p>開発言語として Dart を採用している</p>
     <h2>Dart とは</h2>
     <p>Google が開発・公開したプログラミング言語</p>
-    <p>Java や　JavaScript に似た文法で、JavaScript、Java、C#、Swift などの経験者にとっては馴染みやすいものになっている</p>
+    <p>Java や JavaScript に似た文法で、JavaScript、Java、C#、Swift などの経験者にとっては馴染みやすいものになっている</p>
   </div>
 </div>
 
@@ -507,9 +507,10 @@ Flutter では状態管理が重要
 ---
 
 # Flutter のパッケージ・プラグインについて
+<br/>
 
 Flutter は外部パッケージを使用してアプリの機能を拡張することが可能<br/>
-Flutter 本体に組み込まれていないような便利な Widget などが多数公開されており、それらを使用して開発効率を上げることが可能
+Flutter 本体に組み込まれていないような便利な Widget などが多数公開されており、それらを使用して開発効率を上げられる
 
 また、それぞれの OS の機能（カメラ等）を使用する場合はそれぞれの OS のネイティブコードを書く必要があるが、それらネイティブ機能のプラグインも公開されている<br/>
 そのおかげで自分でネイティブコードを書くことはあまりない
