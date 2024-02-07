@@ -2,6 +2,9 @@
 theme: seriph
 themeConfig:
   primary: '#FF9800'
+fonts:
+  sans: 'Noto Sans Japanese'
+  mono: 'Fira Code'
 background: /images/2024-01-21-08-24-30.png
 colorSchema: 'dark'
 lineNumbers: true
