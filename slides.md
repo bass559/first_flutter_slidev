@@ -44,10 +44,17 @@ class: 'bg-no-repeat bg-contain bg-right bg-[url(/images/build_multi_platform.pn
 
 <div class="flex flex-row">
   <div class="basis-1/2">
-    1つのコードベースからマルチプラットフォームのアプリケーションを<br/>構築するためのフレームワーク<br/><br/>
-    iOS、Android、Mac、Linux、Windows、Web<br/>これらのアプリケーションを1つのコードベースからビルドできる<br/><br/>
-    開発言語として Dart を採用している<br/>
-    Flutter、Dart は Google が開発を行っている
+    <p>
+      1つのコードベースからマルチプラットフォームのアプリケーションを構築するためのフレームワーク
+    </p>
+    <p>
+      iOS、Android、Mac、Linux、Windows、Web<br />
+      これらのアプリケーションを1つのコードベースからビルドできる
+    </p>
+    <p>開発言語として Dart を採用している</p>
+    <h2>Dart とは</h2>
+    <p>Google が開発・公開したプログラミング言語</p>
+    <p>Java や　JavaScript に似た文法で、JavaScript、Java、C#、Swift などの経験者にとっては馴染みやすいものになっている</p>
   </div>
 </div>
 
@@ -76,17 +83,22 @@ Google という大きいところが開発・サポートしているため将�
 layout: section
 hideInToc: true
 ---
+
 # とは言っても 🚢
+
 ---
 hideInToc: true
 ---
 
 # クロスプラットフォームのフレームワークは他にもある
-## `React Native` `.NET MAUI` 
-## `Cordova` `Ionic` `Kotlin Multiplatform`
+## `React Native`
+## `.NET MAUI` 
+## `Cordova`
+## `Ionic`
+## `Kotlin Multiplatform`
 
 <!-- 
-Flutter ゴリ押しする訳ではないので、既存の資産とかスキルを鑑みて、それぞれのフレームワークを検討してみるのも良いと思う  
+既存の資産とかスキルを鑑みて、それぞれのフレームワークを検討してみるのも良いと思う  
 ここでは他のフレームワークの比較はせず Flutter のことだけ話す
 -->
 
@@ -471,6 +483,38 @@ IconList(
 layout: iframe
 url: https://dartpad.dev/?id=580abdc6d9ae8cda43d0f7b8aeabeaf3
 ---
+
+---
+
+# Flutter での状態管理
+<br/>
+
+Flutter では状態管理が重要
+
+手法として下記のようなものがある
+- `StatefulWidget` の `setState`
+- `Provider`
+- `Riverpod`
+- `GetX`
+- `get_it`
+- `flutter_bloc（BLoCパターン）`
+
+### `StatefulWidget` について
+状態の数が十分に少なく、規模が小さい Widget の場合は有用
+
+しかし、ほとんどは他の状態管理手法を用いられることが多い
+
+---
+
+# Flutter のパッケージ・プラグインについて
+
+Flutter は外部パッケージを使用してアプリの機能を拡張することが可能<br/>
+Flutter 本体に組み込まれていないような便利な Widget などが多数公開されており、それらを使用して開発効率を上げることが可能
+
+また、それぞれの OS の機能（カメラ等）を使用する場合はそれぞれの OS のネイティブコードを書く必要があるが、それらネイティブ機能のプラグインも公開されている<br/>
+そのおかげで自分でネイティブコードを書くことはあまりない
+
+[pub.dev](https://pub.dev/)からパッケージを検索・導入できる
 
 ---
 
